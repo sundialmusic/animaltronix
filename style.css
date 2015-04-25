@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     background: #000;
-/*    height: 100%;*/
+    height: 100%;
 }
 
 video {
@@ -306,9 +306,10 @@ ul li span .soundcloud-icon {
 }
 
 #wrapper {
-    min-height: 900px;
+/*    min-height: 900px;*/
+    height: 100%;
     width: auto;
-    overflow: auto;  /*scroll; */
+    overflow: scroll;
 }
 
 
@@ -341,30 +342,24 @@ ul li span .soundcloud-icon {
         width: 430px;
     }
     #player {
-        height: 100px;
+        height: 320px;
         width: 400px;
     }
-    .itunes {
-        width: 26%;
+
+/*
+    .subscribe {
+        width: 370px;
     }
-    .itunes img,
-    .itunes a {
-        width: 150px;
-    }
-    /*.subscribe {
-        width: 370px;*/
-    }
+*/
 /*
     #mc-embedded-subscribe {
         width: 100px !important;
     }
 */
 
-/*
     .col-md-offset-6 {
     margin-left: 42% !important;
     }
-*/
 }
 /*medium Screen*/
 
@@ -375,7 +370,6 @@ ul li span .soundcloud-icon {
     }
     #player {
         height: 100px;
-        width: 300px;
         width: 300px;
     }
     .itunes {
