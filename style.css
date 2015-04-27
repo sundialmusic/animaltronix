@@ -17,12 +17,17 @@ video {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     z-index: -100;
-    background: url('https://cloud.githubusercontent.com/assets/4088925/6924856/083098fe-d7f9-11e4-8a1a-057ed5537195.png') no-repeat;
+    background: url('images/Animaltronix.Still001.png') no-repeat;
     background-size: cover;
     transition: 1s opacity;
+}
+
+#wrapper {
+    height: inherit;
+    width: inherit;
 }
 
 #logo {
@@ -314,26 +319,9 @@ ul li span .soundcloud-icon {
 
 
 
+/*
 @media screen and (max-width: 1240px) {
-/*
-    .itunes {
-        width: 38%;
-        align-self: center;
-    }
-*/
-/*
-     #mc-embedded-subscribe {
-        padding-right: 20px !important;
-    }
-*/
 }
-/*large Screen */
-
-/*
-@media (min-width: 1025px) {
-  
-}
-*/
 
 @media screen and (max-width: 1024px) 
 {
@@ -345,24 +333,17 @@ ul li span .soundcloud-icon {
         height: 320px;
         width: 400px;
     }
-
-/*
-    .subscribe {
-        width: 370px;
-    }
-*/
-/*
-    #mc-embedded-subscribe {
-        width: 100px !important;
-    }
-*/
-
     .col-md-offset-6 {
     margin-left: 42% !important;
     }
 }
+
+*/
+
+
 /*medium Screen*/
 
+/*
 @media screen and (max-width: 768px) {
     #logo {
         height: 300px;
@@ -379,16 +360,19 @@ ul li span .soundcloud-icon {
         width: 100%;
     }
     .subscribe {
-        /*padding-left: 25%;*/
     }
 }
+*/
 /*Small Screen */
 
+/*
 @media screen and (max-width: 500px) {
     #logo {
-        height: 275px; /* 500 x .55 */
-        width: 308px; /* 560 X .55 */
+*/
+ /*       height: 275px;  500 x .55 */
+/*        width: 308px;  560 X .55 */
     }
+/*
     #player {
         height: 300px;
         width: 90%;
@@ -399,24 +383,17 @@ ul li span .soundcloud-icon {
     .navbar li {
         width: 100%;
     }
-/*
-    .subscribe {
-        padding-left: 8%;
-    }
-*/
-/*
-    #mc_embed_signup {
-    float: right;
-    font: 14px Helvetica, Arial, sans-serif;
-    width: 275px;
-*/
 }
+*/
 /* extra small screen */
 
+/*
 @media screen and (max-width: 320px) {
     #logo {
-        height: 275px; /* 500 x .55 */
-        width: 308px; /* 560 X .55 */
+*/
+    /*    height: 275px;  500 x .55 */
+     /*   width: 308px;  560 X .55 */
+/*
     }
     #player {
         height: 300px;
@@ -429,7 +406,7 @@ ul li span .soundcloud-icon {
         width: 100%;
     }
     .subscribe {
-        /*width: 300px*/
+
         padding: 0%;
     }
     
@@ -438,19 +415,8 @@ ul li span .soundcloud-icon {
     float: right;
     font: 14px Helvetica, Arial, sans-serif;
     width: 275px;
-
-}
-
-
-}
-/*
-@media screen and (max-device-width: 800px) {
-    html {
-        background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed;
     }
-    #bgvid {
-        display: none;
-    }
-}*/
+}
+*/
         
         
