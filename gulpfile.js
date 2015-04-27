@@ -3,7 +3,7 @@ var gulp = require('gulp'),
   runSequence = require('run-sequence'),
   filter = require('gulp-filter'),
   sass = require('gulp-sass'),
-  less = require('less');
+  less = require('gulp-less');
 
 gulp.task('clean', function() {
   return gulp.src('dist', {
