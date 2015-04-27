@@ -317,13 +317,7 @@ ul li span .soundcloud-icon {
     overflow: scroll;
 }
 
-
-
-/*
-@media screen and (max-width: 1240px) {
-}
-
-@media screen and (max-width: 1024px) 
+@media screen and (max-width: 1200px) 
 {
     #logo {
         height: 400px;
@@ -338,13 +332,11 @@ ul li span .soundcloud-icon {
     }
 }
 
-*/
 
 
 /*medium Screen*/
 
-/*
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     #logo {
         height: 300px;
         width: 320px;
@@ -362,17 +354,13 @@ ul li span .soundcloud-icon {
     .subscribe {
     }
 }
-*/
 /*Small Screen */
 
-/*
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     #logo {
-*/
- /*       height: 275px;  500 x .55 */
-/*        width: 308px;  560 X .55 */
+      height: 275px;  /*     500 x .55 */
+      width: 308px; /*   560 X .55 */
     }
-/*
     #player {
         height: 300px;
         width: 90%;
@@ -384,16 +372,12 @@ ul li span .soundcloud-icon {
         width: 100%;
     }
 }
-*/
 /* extra small screen */
 
-/*
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     #logo {
-*/
-    /*    height: 275px;  500 x .55 */
-     /*   width: 308px;  560 X .55 */
-/*
+    height: 275px;    /*  500 x .55 */
+    width: 308px;  /* 560 X .55 */
     }
     #player {
         height: 300px;
@@ -417,6 +401,5 @@ ul li span .soundcloud-icon {
     width: 275px;
     }
 }
-*/
         
         
